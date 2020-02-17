@@ -8,23 +8,23 @@
         //Task 3.1: Change these items to reflect
         //four of your favorite things
         $my_favorite_things = array (
-            "1.Traveling",
-            "2.Photograpy",
-            "3.UX/UI design",
-            "4.Ballet"
+            "Traveling",
+            "Photograpy",
+            "UX/UI design",
+            "Ballet"
         );
     ?>
 
     <h1>My Favorite Things</h1>
-
+        <ol>
     <?php
 
 
 foreach($my_favorite_things as $value){
-    echo $value . "<br>";
+    echo "<li>" . $value . "</li>";
 }
 ?>
-
+        </ol>
     </body>
 
                              		
